@@ -1,0 +1,112 @@
+@media  only screen and (max-width:  1440px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-rendering: optimizeLegibility;
+    }
+    .parent-class {
+        background-image: url(bg-intro-desktop.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: hsl(0, 100%, 74%);
+        display: flex;
+        justify-content: space-evenly;
+        padding: 29rem;
+    }
+    .first-class {
+        position: absolute;
+        left: 12rem;
+        top: 20rem;
+    }
+    h1 {
+        font-family: poppins;
+        font-size: 4rem;
+        color:  hsl(240, 7%, 97%);
+        line-height: 5rem;
+    }
+   .first-class  p {
+        width: 32em;
+        font-family: poppins;
+        margin-top: 1.6rem;
+        line-height: 2rem;
+        font-size: 16px;
+        color: hsl(240, 7%, 97%);
+    }
+    .second-class {
+        position: absolute;
+        right: 16rem;
+        top: 23rem;
+    }
+    .sub-class {
+        position: relative;
+        top: -15rem;
+        background-color: hsl(248, 32%, 49%);
+        padding: 1.5em 4rem 1.5em 4em;
+        border-radius: 10px;
+        box-shadow: 0px 6px 3px hsl(0, 4%, 46%) ;
+    }
+    .sub-class p {
+        font-family: poppins;
+        font-size: 16px;
+        font-weight: 400;
+        color: hsl(0, 0%, 91%);
+    }
+    .sub-class p span {
+        color: hsl(240, 7%, 97%);
+        font-weight: 700;
+    }
+    .sub-class2 {
+        background-color: white;
+        padding: 2rem;
+        margin-top: -13rem;
+        border-radius: 10px;
+        box-shadow: 0px 6px 2px hsl(0, 4%, 46%);
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #name {
+        margin: 1em;
+        padding: 1.8em;
+        border-radius: 5px;
+        border: none;
+        background-color: #f1f1fc;
+    }
+    ::placeholder {
+        font-family: poppins;
+        color: hsl(249, 10%, 26%) ;
+        font-size: 13px;
+        font-weight: 600;
+        color: hsl(0, 4%, 46%);
+    }
+    #button {
+        margin: 1em;
+        padding: 1.2em;
+        border-radius: 5px;
+        background-color: hsl(154, 59%, 51%);
+        color: hsl(0, 0%, 91%);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 12px;
+        font-weight: 600;
+        border: none;
+        box-shadow: 0px 2px 2px hsl(154, 62%, 33%);
+    }
+    .form-paragraph {
+        text-align: center;
+    }
+    .form-paragraph p {
+        font-family: poppins;
+        font-size: 10px;
+        color: hsl(246, 25%, 77%);
+    }
+    .form-paragraph p span {
+        color: hsl(0, 100%, 74%);
+        text-transform: capitalize;
+        font-weight: 700;
+    }
+} 
